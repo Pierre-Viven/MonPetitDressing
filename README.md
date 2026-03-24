@@ -3,7 +3,7 @@ Rendu intermédiaire du projet PII 2026 à l'ENSC : MonPetitDressing
 Ce projet utilise un fichier .env, pour avoir accès à la base de données copiez le fichier .env.example et remplissez le avec vos accès.
 
 Pour installer les dépendances entrez la commande suivante dans un terminal :
-py -m pip install -r requirements.txt
+py -m pip install -r dependances.txt
 
 Puis pour lancer l'interface rentrez la commande suivante:
 streamlit run app_streamlit.py
