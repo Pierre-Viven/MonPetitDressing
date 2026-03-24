@@ -6,4 +6,4 @@ Pour installer les dépendances entrez la commande suivante dans un terminal :
 py -m pip install -r dependances.txt
 
 Puis pour lancer l'interface rentrez la commande suivante:
-streamlit run app_streamlit.py
+py -m streamlit run app_streamlit.py
