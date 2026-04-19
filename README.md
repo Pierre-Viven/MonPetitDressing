@@ -38,7 +38,7 @@ Copiez le fichier d'exemple et renseignez vos identifiants PostgreSQL :
 
 - cp .env.example .env
 
-Puis éditez le fichier `.env` avec vos accès.
+Puis éditez le fichier `.env` avec vos accès. (contactez pviven@ensc.fr si besoin)
 
 ### 5. Lancer l'application
 
