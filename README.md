@@ -1,11 +1,53 @@
-Rendu intermédiaire du projet PII 2026 à l'ENSC : MonPetitDressing
+# MonPetitDressing — Rendu intermédiaire PII 2026 (ENSC)
 
-Ce projet utilise un fichier .env, pour avoir accès à la base de données copiez le fichier .env.example et remplissez le avec vos accès.
+Application Data de gestion de dressing personnel
 
-Pour installer les dépendances entrez la commande suivante dans un terminal :
+## Prérequis
 
-py -m pip install -r dependances.txt
+- Python 3.10 ou supérieur
+- Un accès à une base de données PostgreSQL
 
-Puis pour lancer l'interface rentrez la commande suivante:
+## Installation
 
-py -m streamlit run app_streamlit.py
+### 1. Cloner le dépôt
+
+git clone https://github.com/Pierre-Viven/MonPetitDressing
+cd MonPetitDressing
+
+### 2. Créer et activer un environnement virtuel (recommandé)
+
+**Windows**
+python -m venv venv
+venv\Scripts\activate
+
+**macOS / Linux**
+python3 -m venv venv
+source venv/bin/activate
+
+### 3. Installer les dépendances
+
+**Windows**
+python -m pip install -r dependances.txt
+
+**macOS / Linux**
+pip3 install -r dependances.txt
+
+### 4. Configurer la base de données
+
+Copiez le fichier d'exemple et renseignez vos identifiants PostgreSQL :
+
+cp .env.example .env
+
+Puis éditez le fichier `.env` avec vos accès.
+
+### 5. Lancer l'application
+
+**Windows**
+python -m streamlit run app_streamlit.py
+
+**macOS / Linux**
+python3 -m streamlit run app_streamlit.py
+
+L'interface s'ouvre automatiquement dans votre navigateur
+à l'adresse http://localhost:8501
+
