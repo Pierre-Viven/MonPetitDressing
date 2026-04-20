@@ -11,18 +11,18 @@ Application Data de gestion de dressing personnel
 
 ### 1. Cloner le dépôt
 
-git clone https://github.com/Pierre-Viven/MonPetitDressing
-cd MonPetitDressing
+- git clone https://github.com/Pierre-Viven/MonPetitDressing
+- cd MonPetitDressing
 
 ### 2. Créer et activer un environnement virtuel (recommandé)
 
 **Windows**
-python -m venv venv
-venv\Scripts\activate
+- python -m venv venv
+- venv\Scripts\activate
 
 **macOS / Linux**
-python3 -m venv venv
-source venv/bin/activate
+- python3 -m venv venv
+- source venv/bin/activate
 
 ### 3. Installer les dépendances
 
@@ -30,23 +30,23 @@ source venv/bin/activate
 python -m pip install -r dependances.txt
 
 **macOS / Linux**
-pip3 install -r dependances.txt
+- pip3 install -r dependances.txt
 
 ### 4. Configurer la base de données
 
 Copiez le fichier d'exemple et renseignez vos identifiants PostgreSQL :
 
-cp .env.example .env
+- cp .env.example .env
 
-Puis éditez le fichier `.env` avec vos accès.
+Puis éditez le fichier `.env` avec vos accès. (contactez pviven@ensc.fr si besoin)
 
 ### 5. Lancer l'application
 
 **Windows**
-python -m streamlit run app_streamlit.py
+- python -m streamlit run app_streamlit.py
 
 **macOS / Linux**
-python3 -m streamlit run app_streamlit.py
+- python3 -m streamlit run app_streamlit.py
 
 L'interface s'ouvre automatiquement dans votre navigateur
 à l'adresse http://localhost:8501
